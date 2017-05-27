@@ -6,7 +6,7 @@ $(document).on('turbolinks:load', function() {
     
     
   //Set Stripe public key.
-  Stripe.setPublishableKey( $('meta[name=["stripe-key"]').attr('content') );
+  Stripe.setPublishableKey( $('meta[name="stripe-key"]').attr('content') );
   
   //When user clicks form submit btn.
   submitBtn.click(function(event){
