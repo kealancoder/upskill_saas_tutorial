@@ -69,8 +69,18 @@ h1, h2, h3 {
   }
 
 // Authentication flash messages
-.alert-notice {
-  display:none;
+
+.flash-container {
+  position: absolute;
+  width: 100%;
+}
+.alert-notice, .alert-alert {
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.3);
+  border-color: rgba(255, 255, 255, 0.5);
+  margin-top: -14px;
 }
 
 .home-signup-links {
